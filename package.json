@@ -1,7 +1,6 @@
 {
   "name": "newsite",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "dependencies": {
     "@ethersproject/address": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
@@ -30,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
